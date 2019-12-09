@@ -23,7 +23,8 @@
 <h1>Absolute links</h1>
 <p>These links contain the entire URL necessary to resolve a link, including the protocol. This is usually done for external links, which are links to pages outside of the current site. Here&rsquo;s an example of an absolute link:</p>
 <pre>&lt;a href=&rdquo;http://www.lynda.com&rdquo; title=&rdquo;You can learn it at lynda.com!&rdquo;&gt;lynda.com&lt;/a&gt;</pre>
-<h2>Document relative links</h2>
+
+<h1>Document relative links</h1>
 <p>These links are commonly used to navigate internally within a site. For example, if you were on the home page of your site, and wanted to navigate to the contact page, you simply provide the path from the home page to the contact page for the <b>href</b> value. Doing this requires you to understand the directory structure of your site, and when you need to navigate into, or out of, folders. Take the following example:</p>
 <pre>&lt;a href=&rdquo;contact.htm&rdquo; title=&rdquo;our contact page&rdquo;&gt;Contact us&lt;/a&gt;</pre>
 <p>This link assumes that the contact page and the current page are in the same directory. If the contact page were located in a directory below the current page, the link would look like this:</p>
@@ -45,6 +46,7 @@
 <pre>&lt;a href=&rdquo;#camp&rdquo;&gt;Learn more about camping&lt;/a&gt;</pre>
 <p> Note the hash symbol (#) prior to the ID value. This tells the browser to look for an element with the ID value that follows.You can link to fragment identifiers on external pages as well. Simply append the fragment identifier to the URL and the link will jump to not only to that page, but that specific section as well.</p>
 <pre>&lt;a href=&rdquo;faq.htm#camp&rdquo;&gt;Read our FAQ on camping.&lt;/a&gt;</pre>
-<p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+<p>&copy; lynda.com | follow me and <a href="https://www.lynda.com/" target="_blank">lynda.com</a> on Twitter! <a href="https://twitter.com/jameswillweb?lang=en" target="_blank">@jameswillweb</a> <a href="https://twitter.com/lyndadotcom?lang=en" target="_blank">@lyndadotcom</a></p>
+
 </body>
 </html>
